@@ -1,0 +1,38 @@
+body { color: #979797; font: 12px/24px "Microsoft Yahei", "\5b8b\4f53", Arial, sans-serif; }
+a { color: #676767; }
+a:hover { color: #e61d4c; }
+a.btnMore { width: 107px; height: 27px; line-height: 25px; border: 1px solid #a0a0a0; border-radius: 13px; }
+a.btnMore:hover { border: 1px solid #e70012; background: #e70012; color: #fff; }
+a.btnMore span { font-family: "宋体"; }
+
+.moduleCenter{margin:auto;width:1000px;text-align: center}
+
+/* 客户案例 */
+.picScroll-left{ width:1000px;  overflow:hidden; position:relative; }
+.picScroll-left .hd{ overflow:hidden;  height:50px; background:#f4f4f4; padding:0 10px; text-align: center;margin-top:30px }
+.picScroll-left .hd .prev,.picScroll-left .hd .next{ display:block;  width:53px; height:44px; margin-right:5px;   overflow:hidden;
+     cursor:pointer; background:url("../images/arrow-left.jpg") 0 0  no-repeat;vertical-align: middle;display: inline-block}
+.picScroll-left .hd .next{ background-position:0 -50px;background: url("../images/arrow.jpg")  0 0 no-repeat;  }
+.picScroll-left .hd .btnqiehuan{background-position: 0 -44px}
+.picScroll-left .hd ul{ float:none; overflow:hidden; zoom:1;vertical-align: middle;display: inline-block;margin: 0 90px; }
+.picScroll-left .hd ul li{ float:left;  width:24px; height:12px; overflow:hidden; margin-right:5px; text-indent:-999px; cursor:pointer; background:url("../images/icoCircle.png")  0   -12px  no-repeat ;}
+.picScroll-left .hd ul li.on{ background-position:0 0; }
+.picScroll-left .bd{ padding:10px;   }
+.picScroll-left .bd ul{ overflow:hidden; zoom:1; }
+.picScroll-left .bd ul li{ margin:0 8px; float:left; _display:inline; overflow:hidden; text-align:center;  }
+
+/* 我们的客户 */
+.coustom ul{text-align: center;float: none;position: relative;top:52px}
+.coustom ul li{position: relative;width:250px;height: 250px;background:transparent;margin-right:20px;margin-bottom: 20px}
+.coustom ul li img{position: absolute;top:0px;bottom:0;right:0;left:0;margin: auto;transform:rotate(-45deg);-ms-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-webkit-transform:rotate(-45deg);-o-transform:rotate(-45deg)}
+.coustom ul li div{position:relative;margin:auto;width:175px;height:175px;background:#f0f0f0;box-sizing: border-box;transform:rotate(45deg);-ms-transform:rotate(45deg);-moz-transform:rotate(45deg);-webkit-transform:rotate(45deg);-o-transform:rotate(45deg)}
+.coustom ul li:last-child{margin-right:0px}
+.coustom ul:last-child{left:87.5px;top:-27.5px}
+
+/* footer */
+.footer{background: #32323c;width:100%;border-top:6px solid #e44532;padding:36px 0}
+.footer ul{text-align: left;margin-right:200px}
+.footer ul p{font-size:18px;color: #fff;margin-bottom: 25px}
+.footer ul li {font-size:12px;float: none;color: #ccc;position: relative;margin-left:10px;height: 35px;line-height: 35px}
+.footer ul li::before{content:'';display:block;width:10px;height:10px;border-radius: 50%;background: #e44532;position: absolute;top:50%;margin-top:-5px;left:-20px}
+.footer ul li a{color: #ccc;font-size:12px;display:block }
