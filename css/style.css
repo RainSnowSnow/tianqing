@@ -7,11 +7,23 @@ a.btnMore span { font-family: "宋体"; }
 
 .moduleCenter{margin:auto;width:1000px;text-align: center}
 
+
+/* 导航 */
+.head{height: 70px;}
+.nav ul li a{margin-right:66px;text-align: center;font-size:14px;display:inline-block;height: 70px;line-height: 70px}
+
+
+/* banner */
+.indexBanner{background: #0f1112;text-align: center;height:420px;position: relative}
+.indexBanner >img{font-size: 0;position: absolute;top: 0;bottom: 0;right: 0;left: 0;margin: auto;display: block;}
+.banner{text-align: center;height:243px;position: relative;background:#2c373d}
+.banner>img{font-size: 0;position: absolute;top: 0;bottom: 0;right: 0;left: 0;margin: auto;display: block;}
+
 /* 客户案例 */
 .picScroll-left{ width:1000px;  overflow:hidden; position:relative; }
-.picScroll-left .hd{ overflow:hidden;  height:50px; background:#f4f4f4; padding:0 10px; text-align: center;margin-top:30px }
+.picScroll-left .hd{ overflow:hidden;  height:50px; padding:0 10px; text-align: center;margin-top:30px }
 .picScroll-left .hd .prev,.picScroll-left .hd .next{ display:block;  width:53px; height:44px; margin-right:5px;   overflow:hidden;
-     cursor:pointer; background:url("../images/arrow-left.jpg") 0 0  no-repeat;vertical-align: middle;display: inline-block}
+cursor:pointer; background:url("../images/arrow-left.jpg") 0 0  no-repeat;vertical-align: middle;display: inline-block}
 .picScroll-left .hd .next{ background-position:0 -50px;background: url("../images/arrow.jpg")  0 0 no-repeat;  }
 .picScroll-left .hd .btnqiehuan{background-position: 0 -44px}
 .picScroll-left .hd ul{ float:none; overflow:hidden; zoom:1;vertical-align: middle;display: inline-block;margin: 0 90px; }
@@ -20,19 +32,70 @@ a.btnMore span { font-family: "宋体"; }
 .picScroll-left .bd{ padding:10px;   }
 .picScroll-left .bd ul{ overflow:hidden; zoom:1; }
 .picScroll-left .bd ul li{ margin:0 8px; float:left; _display:inline; overflow:hidden; text-align:center;  }
+.case{background: #f7f7f7;padding-top:56px;padding-bottom: 35px;margin-top: 55px}
+.lunbo{margin-top:40px}
+
+/* 服务项目 */
+.project{margin-top: 55px}
+.project .severDetail{margin-top: 50px}
+.project .severDetail ul li{text-align: center}
+.project .severDetail ul li{width: 170px;margin-right: 26px;overflow: hidden;}
+.project .severDetail ul li p{width: 100%;height: 68px;text-overflow: ellipsis;overflow: hidden; word-break: break-all;-webkit-line-clamp: 3; display:-webkit-box;}
+.severDetail ul li:last-child{margin-right:0}
+
+
+
+
+
+/* 关于我们 */
+.about{margin-top: 55px}
+.aboutModule{margin-top: 50px}
+.aboutModule .about_left{width: 424px;height: 278px;background: url(../images/about.gif) center center no-repeat;position: relative;}
+.aboutModule .about_left .introdction{position: absolute;bottom: 0;left: 0; width: 260px;height: 132px;background: rgba(0,0,0,0.5);color:#fff;font-size: 12px}
+.aboutModule .about_left .introdction p{font-size: 16px }
+.aboutModule .about_left .introdction p em{font-size: 12px; text-transform:uppercase; font-style: normal}
+.aboutModule .about_left,.aboutModule .about_right{ vertical-align: middle}
+.aboutModule .about_right{width: 558px}
+.aboutModule .about_right .program, .aboutModule .about_right .designTeam{width: 278px;overflow: hidden;vertical-align: middle}
+.aboutModule .about_right .program .programTeam,.aboutModule .about_right .designTeam{padding-left:20px}
+.aboutModule .about_right .program .programTeam p, .aboutModule .about_right .designTeam p{font-size: 16px;color: #666;text-align: left}
+.aboutModule .about_right .program .programTeam p em, .aboutModule .about_right .designTeam p em{color:#b1b1b1;font-size:12px;text-transform:uppercase; font-style: normal}
+.aboutModule .about_right .program .programTeam ul li, .aboutModule .about_right .designTeam ul li{font-size: 12px;position: relative;padding-left: 20px;}
+.aboutModule .about_right .program .programTeam ul li:last-child, .aboutModule .about_right .designTeam ul li:last-child{margin-bottom: 10px}
+.aboutModule .about_right .program  .programTeam ul li::before, .aboutModule .about_right .designTeam ul li::before{content: "";position: absolute;top:50%;margin-top:-5px;left:0;display: block;width: 10px;height: 10px;background: url(../images/icon_arrow_07.gif) center center no-repeat}
 
 /* 我们的客户 */
-.coustom ul{text-align: center;float: none;position: relative;top:52px}
-.coustom ul li{position: relative;width:250px;height: 250px;background:transparent;margin-right:20px;margin-bottom: 20px}
-.coustom ul li img{position: absolute;top:0px;bottom:0;right:0;left:0;margin: auto;transform:rotate(-45deg);-ms-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-webkit-transform:rotate(-45deg);-o-transform:rotate(-45deg)}
-.coustom ul li div{position:relative;margin:auto;width:175px;height:175px;background:#f0f0f0;box-sizing: border-box;transform:rotate(45deg);-ms-transform:rotate(45deg);-moz-transform:rotate(45deg);-webkit-transform:rotate(45deg);-o-transform:rotate(45deg)}
-.coustom ul li:last-child{margin-right:0px}
-.coustom ul:last-child{left:87.5px;top:-27.5px}
+.coustom .coustomMoule{margin-top: 55px}
+.coustom .coustomMoule .coustomList{margin-top: 30px;padding-left:62.5px;height: 430px;overflow: hidden;}
+.coustom .coustomMoule .coustomList ul{text-align: center;float: none;position: relative;top:52px}
+.coustom .coustomMoule .coustomList ul li{position: relative;width:250px;height: 250px;background:transparent;margin-right:20px;margin-bottom: 20px}
+.coustom .coustomMoule .coustomList ul li img{position: absolute;top:0px;bottom:0;right:0;left:0;margin: auto;transform:rotate(-45deg);-ms-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-webkit-transform:rotate(-45deg);-o-transform:rotate(-45deg)}
+.coustom .coustomMoule .coustomList ul li div{position:relative;margin:auto;width:175px;height:175px;background:#f0f0f0;box-sizing: border-box;transform:rotate(45deg);-ms-transform:rotate(45deg);-moz-transform:rotate(45deg);-webkit-transform:rotate(45deg);-o-transform:rotate(45deg)}
+.coustom .coustomMoule .coustomList ul li:last-child{margin-right:0px}
+.coustom .coustomMoule .coustomList ul:last-child{ left: 137.5px;top: -88.5px;}
 
 /* footer */
+.footerMoudle{width:700px;margin:auto}
 .footer{background: #32323c;width:100%;border-top:6px solid #e44532;padding:36px 0}
-.footer ul{text-align: left;margin-right:200px}
-.footer ul p{font-size:18px;color: #fff;margin-bottom: 25px}
-.footer ul li {font-size:12px;float: none;color: #ccc;position: relative;margin-left:10px;height: 35px;line-height: 35px}
-.footer ul li::before{content:'';display:block;width:10px;height:10px;border-radius: 50%;background: #e44532;position: absolute;top:50%;margin-top:-5px;left:-20px}
+.footer ul{text-align: left;}
+.footer ul p{font-size:18px;color: #fff;margin-bottom: 15px}
+.footer ul li {font-size:12px;float: none;color: #ccc;position: relative;margin-left:10px;height: 25px;line-height: 25px;    padding-left: 10px;}
+.footer ul li::before{content:'';display:block;width:10px;height:10px;border-radius: 50%;background: #e44532;position: absolute;top:50%;margin-top:-5px;left:-10px}
 .footer ul li a{color: #ccc;font-size:12px;display:block }
+
+/* 内页 关于我们 */
+.introdction{text-align: left;margin-top:18px}
+.introdction  p {text-indent:25px;font-size: 12px;color: #615E5E;clear: both;}
+.introdction .title{margin-bottom: 4px}
+.partner {text-align: left;margin-top:18px; margin-bottom: 20px; }
+.partner ul{ margin-top: 6px;}
+.partner ul li{width:153px;height: 65px;border:1px solid;text-align: center;margin-right:15px;margin-bottom: 15px }
+.introdction .right_quote{margin-bottom: 20px}
+
+/* 内页 案例 */
+#container{position: relative;  left: 50%;transform: translate(-50%,0);-webkit-transform: translate(-50%,0);margin:auto}
+#container img{width: 100%}
+.grid{    width: 236px !important;padding: 15px;background: #fff;font-size: 12px;-webkit-box-shadow: 0 1px 3px rgba(34,25,25,0.4);-webkit-transition: top 1s ease, left 1s ease;    -moz-transition: top 1s ease, left 1s ease; -o-transition: top 1s ease, left 1s ease;-ms-transition: top 1s ease, left 1s ease; transition: top 1s ease, left 1s ease;    box-shadow: 0 1px 3px rgba(34,25,25,0.4);}
+div.bread{background:#f9f9f9;border-bottom: 1px solid #e8e7e7;text-align: left;height: 32px;line-height:32px}
+div.breadNav{color: #888888;font-size: 12px ;text-align: left}
+.caseTitle{text-align: left;margin-top:30px;margin-bottom: 40px}

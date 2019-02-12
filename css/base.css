@@ -26,7 +26,7 @@ input.submit {border:0;margin:0;cursor: pointer;}
 input.radio {width:13px;height:13px;float:left;display:inline;}
 textarea {overflow:auto;vertical-align:top;}
 table {border-collapse: collapse;border-spacing:0;}
-ul,ol{list-style:none;float: left;}
+ol{list-style:none;float: left;}
 li{list-style:none;float: left;}
 /*清除浮动*/
 .clear{zoom:1;}
@@ -435,4 +435,9 @@ a.back2top {
 .footer a{display:none;}
 
 button, html input[type="button"], input[type="reset"], input[type="submit"]{-webkit-appearance: button;
-    cursor: pointer;}
+	cursor: pointer;}
+
+/*图片居中  */
+
+.img{max-width:100%;max-height:100%;vertical-align: middle}
+.iCenter{display:inline-block;height: 100%;vertical-align: middle}
