@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>天擎网络科技有限公司</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/jQuery.js"></script>
+    <link rel="stylesheet" href="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.css" />
+  </head>
+<body>
+        <div class="head ">
+                <div class="moduleCenter">
+                <div class="logo fl"><img class="logo" src="images/logo.png"></div>
+                 <div class="nav fr">
+                     <ul>
+                         <li> <a href="index.html">首页</a> </li>
+                         <li> <a href="about.html">关于我们</a> </li>
+                         <li> <a href="case.html">成功案例</a> </li>
+                         <li  class="active"> <a href="contact.html">联系我们</a> </li>
+                     </ul>
+                 </div>
+                 <div class="clear"></div>
+                </div>
+            </div>
+            <section>
+                    <div class="banner">
+                         <img  src="images/Contact_banner.jpg"/>
+                    </div>
+            </section>
+            <section class="contact">
+                  <img src="images/Contact_129_b.jpg" alt="">
+            </section>
+            <section>
+                    <div class="map">
+                            <div id="map" style="width: 956px;height: 300px;margin:auto"></div>
+                       </div> 
+            </section>
+            <footer>
+                    <div class="footer">
+                   <div class="moduleCenter" style="width:700px ">
+                    <ul class="contactFooter fl">
+                        <p>联系我们</p>
+                        <li>电话：0518-81182585</li>
+                        <li>邮箱：1111@sina.com</li>
+                        <li>地址：江苏省连云港市海州区港城大道百纳水岸2号楼414</li>
+                        <li>版权所有：连云港天擎网络科技有限公司&nbsp;&nbsp;&nbsp;备案号</li>
+                       
+                    </ul>
+                    <ul class="fr">
+                        <p>网站地图</p>
+                        <li> <a href="#">首页</a> </li>
+                        <li> <a href="#">关于我们</a> </li>
+                        <li> <a href="#">成功案例</a> </li>
+                        <li> <a href="#">联系我们</a> </li>
+                    </ul>
+                  <div class="clear"></div>
+                </div>
+             </div>
+ </footer>
+<script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=qtLqGGRIuXwfW72MiKWGX566sEFpxBEH" ></script>
+<script type="text/javascript" src="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.js" ></script>
+<script type="text/javascript" src="js/map.js"></script>
+<script type="text/javascript">
+    $(function(){
+        mapInit(119.214942,34.624564,"连云港天擎网络科技有限公司", "江苏省连云港市海州区港城大道百纳水岸2号楼414");
+    });
+    </script>
+    <script>
+        var msgfield = '{"name":["1","1","\u59d3\u540d"],"tel":["1","1","\u7535\u8bdd"],"email":["1","1","\u90ae\u7bb1"],"title":["1","1","\u6807\u9898"],"content":["1","1","\u5185\u5bb9"]}';
+        var msgfields = $.parseJSON(msgfield);
+        msgCheck.init(msgfields);
+        msgCheck.run();
+    </script>
+</body>
+</html>
