@@ -52,7 +52,8 @@ cursor:pointer; background:url("../images/arrow-left.jpg") 0 0  no-repeat;vertic
 .aboutModule{margin-top: 50px}
 .aboutModule .about_left{width: 424px;height: 278px;background: url(../images/about.gif) center center no-repeat;position: relative;}
 .aboutModule .about_left .introdction{position: absolute;bottom: 0;left: 0; width: 260px;height: 132px;background: rgba(0,0,0,0.5);color:#fff;font-size: 12px}
-.aboutModule .about_left .introdction p{font-size: 16px }
+.aboutModule .about_left .introdction div{padding-left: 5px}
+.aboutModule .about_left .introdction p{font-size: 16px;color: #d1d1d1;text-indent: 6px; }
 .aboutModule .about_left .introdction p em{font-size: 12px; text-transform:uppercase; font-style: normal}
 .aboutModule .about_left,.aboutModule .about_right{ vertical-align: middle}
 .aboutModule .about_right{width: 558px}
@@ -85,9 +86,9 @@ cursor:pointer; background:url("../images/arrow-left.jpg") 0 0  no-repeat;vertic
 
 /* 内页 关于我们 */
 .introdction{text-align: left;margin-top:18px}
-.introdction  p {text-indent:25px;font-size: 12px;color: #615E5E;clear: both;}
+.introdction  p {text-indent:25px;font-size: 14px;color: #615E5E;clear: both;}
 .introdction .title{margin-bottom: 4px}
-.partner {text-align: left;margin-top:18px; margin-bottom: 20px; }
+.partner {text-align: left;margin-top:30px; margin-bottom: 20px; }
 .partner ul{ margin-top: 6px;}
 .partner ul li{width:153px;height: 65px;border:1px solid;text-align: center;margin-right:15px;margin-bottom: 15px }
 .introdction .right_quote{margin-bottom: 20px}
